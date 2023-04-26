@@ -112,4 +112,20 @@
 
 
 
+let gigosResults = [27, 33, 77] ;
 
+if(gigosResults.length == 4 && (gigosResults[0]) >= 25 && gigosResults[1] >= 25 && gigosResults[2] >= 25 && gigosResults[3] >= 25) {
+    console.log("გილოცავ გიგო,შენ ჩააბარე გამოცდებიგილოცავ გიგო,შენ ჩააბარე გამოცდები")
+}
+else if(gigosResults.length == 3 && (gigosResults[0]) >= 25 && gigosResults[1] >= 25 && gigosResults[2] >= 25) {
+    console.log(`გილოცავ გიგო,შენ ჩააბარე ${gigosResults.length} გამოცდა, ერთი გამოცდაც და ეგაა`)
+}
+else if(gigosResults.length == 2 && (gigosResults[0]) >= 25 && gigosResults[1] >= 25) {
+    console.log(`გილოცავ გიგო,შენ ჩააბარე ${gigosResults.length} გამოცდa, ორიც და ეგაა`)
+}
+else if(gigosResults.length == 1 && (gigosResults[0]) >= 25) {
+    console.log(`გილოცავ გიგო,შენ ჩააბარე ${gigosResults.length} გამოცდა, კიდევ სამიც და ეგაა`)
+}
+else{
+   console.log("სამწუხაროდ ჩაიჭერი გიგო")
+}
